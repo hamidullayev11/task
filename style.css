@@ -1,0 +1,144 @@
+.div1 {
+  border: 1px solid black;
+  height: 420px;
+  width: 330px;
+  border: 1px solid black;
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .div1 {
+    width: 275px;
+  }
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 29px;
+}
+
+.div3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div4 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.div6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 47px;
+  width: 280px;
+  border-radius: 27px;
+  background-color: black;
+  color: white;
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .div6 {
+    height: 45px;
+    width: 219px;
+  }
+}
+
+.div5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.div10 {
+  border: 1px solid black;
+  height: 420px;
+  width: 330px;
+  background-color: #e2306c;
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .div10 {
+    width: 275px;
+  }
+}
+
+.ins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 29px;
+}
+
+.div11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.div12 {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+.div14 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 47px;
+  width: 280px;
+  border-radius: 27px;
+  background-color: white;
+  color: #e2306c;
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .div14 {
+    height: 45px;
+    width: 219px;
+  }
+}
+
+.div13 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.div15 {
+  border: 1px solid black;
+  height: 420px;
+  width: 330px;
+  border: 1px solid black;
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .div15 {
+    width: 275px;
+  }
+}
+
+.div16 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 29px;
+}
+
+.father {
+  height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (min-width: 300px) and (max-width: 1100px) {
+  .father {
+    flex-direction: column;
+    height: 100%;
+    gap: 18px;
+  }
+}/*# sourceMappingURL=style.css.map */

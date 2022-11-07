@@ -1,0 +1,108 @@
+@mixin quti(){
+    border: 1px solid black;
+    height: 420px;
+    width: 330px;
+}
+
+@mixin quti1(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1{
+    @include quti();
+    border: 1px solid black;
+    @media(min-width:300px) and (max-width:400px){
+        width: 275px;
+    }
+}
+
+.div2{
+    @include quti1();
+    padding-top: 29px;
+}
+.div3{
+    @include quti1();
+}
+.div4{
+    text-align: center;
+    font-size: 22px;
+}
+.div6{
+    @include quti1();
+    border: 1px solid black;
+    height: 47px;
+    width: 280px;
+    border-radius: 27px;
+    background-color: black;
+    color: white;
+  
+    @media(min-width:300px) and (max-width:400px){
+        height: 45px;
+        width: 219px;
+    }
+}
+.div5{
+    @include quti1();
+    padding-top: 30px;
+}
+.div10{
+    @include quti();
+    background-color: #e2306c;
+    @media(min-width:300px) and (max-width:400px){
+        width: 275px;
+    }
+}
+.ins{
+    @include quti1();
+    padding-top: 29px;
+}
+.div11{
+    @include quti1();
+    color: white;
+}
+.div12{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+.div14{
+    @include quti1();
+    border: 1px solid black;
+    height: 47px;
+    width: 280px;
+    border-radius: 27px;
+    background-color: white;
+    color: #e2306c;
+    @media(min-width:300px) and (max-width:400px){
+        height: 45px;
+        width: 219px;
+    }
+}
+.div13{
+    @include quti1();
+    padding-top: 30px;
+}
+.div15{
+    @include quti();
+    border: 1px solid black;
+    @media(min-width:300px) and (max-width:400px){
+        width: 275px;
+    }
+}
+.div16{
+    @include quti1();
+    padding-top: 29px;
+}
+.father{
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @media(min-width:300px) and (max-width:1100px){
+        flex-direction: column;
+           height: 100%;
+           gap: 18px
+    }
+}
